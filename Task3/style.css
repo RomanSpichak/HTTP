@@ -1,0 +1,27 @@
+#usersTable, #productsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+#usersTable th, #productsTable th, #usersTable td, #productsTable td {
+  border: 2px solid #a39b9b;
+  padding: 8px;
+}
+#usersTable th, #productsTable th {
+  background-color: #c8ced2;
+}
+#usersTable tbody tr:nth-child(even), #productsTable tbody tr:nth-child(even){
+  background-color: #f4fdf4;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  margin: 5px;
+}
