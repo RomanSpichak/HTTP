@@ -250,7 +250,7 @@ function showAddForm(config) {
 }
 
 /**
- * Fill form inputs
+ * Fill form inputs from config values
  * @param {*} inputConfig 
  * @param {*} column 
  * @param {*} form 
@@ -287,7 +287,7 @@ function fillForm(inputConfig, column, form) {
  * @param {*} input 
  * @param {*} hasError 
  * @param {*} dataToSend 
- * @returns 
+ * @returns boolean
  */
 function checkError(formData, input, hasError, dataToSend) {
   const value = formData.get(input.name)?.trim();
